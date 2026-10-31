@@ -10,7 +10,7 @@ body:
     attributes:
       label: App and hardware details
       description: "Paste Settings → Help & diagnostics → Copy diagnostics here, or manually enter app version, Windows version/build, GPU, VRAM, NVIDIA driver and system RAM. Review the report before posting."
-      placeholder: "Paste the copied diagnostics, or enter: 0.6.0; Windows 11; RTX 3060; 12 GB VRAM; driver version; 16 GB RAM."
+      placeholder: "Paste the copied diagnostics, or enter: 0.6.1; Windows 11; RTX 3060; 12 GB VRAM; driver version; 16 GB RAM."
       render: text
     validations:
       required: true

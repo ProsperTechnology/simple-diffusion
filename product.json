@@ -1,7 +1,7 @@
 {
   "name": "Simple Diffusion",
   "company": "Prosper Technologies",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "channel": "prerelease",
   "signed": false,
   "automaticUpdatesEnabled": false,
@@ -12,17 +12,18 @@
   "catalogStyles": 13,
   "collections": 5,
   "website": "https://prospertechnology.github.io/simple-diffusion/",
-  "releaseUrl": "https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.6.0",
+  "releaseUrl": "https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.6.1",
   "lastUpdated": "2026-10-31",
-  "installerUrl": "https://github.com/ProsperTechnology/simple-diffusion/releases/download/v0.6.0/Simple-Diffusion-Setup-0.6.0.exe",
+  "installerUrl": "https://github.com/ProsperTechnology/simple-diffusion/releases/download/v0.6.1/Simple-Diffusion-Setup-0.6.1.exe",
   "installerType": "app-only",
   "installationRequiresInternet": false,
   "engineSetupRequiresInternet": true,
-  "installerBytes": 169229554,
+  "installerBytes": 169230197,
   "privacyPolicyUrl": "https://prospertechnology.github.io/simple-diffusion/privacy.html",
   "engineDownloadBytes": 2753110875,
   "modelDownloadBytes": 6941201645,
   "engineAndModelDownloadBytes": 9694312520,
-  "firstTimeTransferBytes": 9863542074,
-  "networkVerificationUrl": "https://prospertechnology.github.io/simple-diffusion/network-verification.html"
+  "firstTimeTransferBytes": 9863542717,
+  "networkVerificationUrl": "https://prospertechnology.github.io/simple-diffusion/network-verification.html",
+  "installerSha256": "d9d598a64e6ca1dcbcd7507a26a91aa37bfbe349fa21880fd8c07987b2b4d783"
 }

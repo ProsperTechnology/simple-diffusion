@@ -1,5 +1,15 @@
 # Release history
 
+## 0.6.1 — 2026-10-31 · setup clarity and tester diagnostics
+
+- Explicit VRAM, Windows/app version and driver information in a path-redacted, fixed-field diagnostics report.
+- Copy diagnostics is available directly in first-run setup. Reports stay on the local clipboard unless the user shares them.
+- Setup displays 9.69 GB combined engine/model downloads, additional to the 169 MB installer, before downloading starts. Existing verified files are reused.
+- Improved issue reporting, published network-verification guidance and corrected the old multi-file installer FAQ.
+- Help includes an AI-content report link without automatic image/prompt upload.
+- Validation: 34 tests, TypeScript, production build, packaged version/content and release protection checks pass. Physical 8/12 GB GPU and independent privacy/security testing remain pending.
+- Unsigned early access; automatic updates and live sales remain disabled.
+
 ## 0.6.0 — 2026-10-31 · optional engine download
 
 - Installer registration update: explicitly creates the Windows Installed apps entry as Simple Diffusion, published by Prosper Technologies, and adds a Start menu Uninstall shortcut. Verified after normal per-user installation.

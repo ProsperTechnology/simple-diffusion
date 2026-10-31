@@ -1,17 +1,17 @@
 <p align="center"><img src="docs/assets/mark.svg" width="56" alt="Simple Diffusion"></p>
 <h1 align="center">Simple Diffusion</h1>
 <p align="center"><b>Pick a style. Describe it. Create.</b><br>Free local AI image generation for Windows, by Prosper Technologies.</p>
-<p align="center"><a href="https://prospertechnology.github.io/simple-diffusion/">Product website</a> · <a href="https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.6.0">Download v0.6.0</a> · <a href="https://prospertechnology.github.io/simple-diffusion/guide.html">Installation guide</a> · <a href="CHANGELOG.md">Release history</a> · <a href="https://prospertechnology.github.io/simple-diffusion/privacy.html">Privacy policy</a></p>
+<p align="center"><a href="https://prospertechnology.github.io/simple-diffusion/">Product website</a> · <a href="https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.6.1">Download v0.6.1</a> · <a href="https://prospertechnology.github.io/simple-diffusion/guide.html">Installation guide</a> · <a href="CHANGELOG.md">Release history</a> · <a href="https://prospertechnology.github.io/simple-diffusion/privacy.html">Privacy policy</a></p>
 
 ![Simple Diffusion 0.5 Windows studio showing an image generated locally on an NVIDIA GPU](docs/assets/studio.jpg)
 
 Simple Diffusion is a Windows desktop app for creating SDXL images on your own NVIDIA graphics card. Basic local generation is free: no account, no image credits and no telemetry. Install the 169 MB app, download the engine and model when ready, then generate offline.
 
-**Current status:** v0.6.0 is an **unsigned early-access prerelease**. Verified on Windows 11 with RTX 4080 / 16 GB. Broader hardware testing remains pending. Automatic updates and live pack sales are disabled.
+**Current status:** v0.6.1 is an **unsigned early-access prerelease**. Verified on Windows 11 with RTX 4080 / 16 GB. Broader hardware testing remains pending. Automatic updates and live pack sales are disabled.
 
 ## Download and install
 
-Download [Simple-Diffusion-Setup-0.6.0.exe](https://github.com/ProsperTechnology/simple-diffusion/releases/download/v0.6.0/Simple-Diffusion-Setup-0.6.0.exe) (**169 MB**) and open it. This installs the app without downloading the image engine.
+Download [Simple-Diffusion-Setup-0.6.1.exe](https://github.com/ProsperTechnology/simple-diffusion/releases/download/v0.6.1/Simple-Diffusion-Setup-0.6.1.exe) (**169 MB**) and open it. This installs the app without downloading the image engine.
 
 When you are ready to create, open setup inside the app. It shows the sizes and asks you to accept the model license before downloading the NVIDIA image engine (~2.75 GB) and SDXL model (~6.94 GB), **9.69 GB combined in addition to the 169 MB installer**. Downloads are verified and can be paused and resumed. You can dismiss setup and return later. The engine is installed once in local app data and retained across ordinary app updates. Existing model files are checked and reused.
 
@@ -82,7 +82,7 @@ See [how to inspect network activity](https://prospertechnology.github.io/simple
 
 ## Help and bug reports
 
-Use Settings → Help & diagnostics to copy a sanitized report. For missing/damaged model files, use Set up / repair. Report reproducible issues in the [official tracker](https://github.com/ProsperTechnology/simple-diffusion/issues), including app version, Windows version, GPU/VRAM, steps and expected/actual behavior. Never post private prompts, images, account details or personal folder paths.
+Use Copy diagnostics in first-run setup or Settings → Help & diagnostics. It copies app/Windows versions, GPU/VRAM/driver and system RAM; paths, prompts, images and account details are excluded. Review before posting. For missing/damaged model files, use Set up / repair. Report reproducible issues in the [official tracker](https://github.com/ProsperTechnology/simple-diffusion/issues), including app version, Windows version, GPU/VRAM, steps and expected/actual behavior. Never post private prompts, images, account details or personal folder paths.
 
 ## Repository and licenses
 
