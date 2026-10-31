@@ -1,0 +1,20 @@
+# This is a public product-info repository. Application source stays private.
+/src/
+/desktop/
+/engine/
+/commercial/
+/runtime/
+/node_modules/
+/app/
+/dist/
+*.source.json
+*Source*.zip
+*source*.zip
+*.pfx
+*.p12
+*.key
+.env
+.env.*
+# Installers belong in Releases, never the Git history.
+*.exe
+*.bin
