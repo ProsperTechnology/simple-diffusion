@@ -12,7 +12,7 @@ Verification: 22 automated test groups pass; compacted app and bytecode worker p
 
 These measures deter casual copying and tampering. JavaScript compaction and Python bytecode are not encryption; determined users can still inspect or reverse engineer software running on their PC. Locally installed recipe packs and public model weights remain accessible. No server secrets are bundled. Previously downloaded versions cannot be recalled. The older 0.5.0 installer was withdrawn from public downloads after 0.5.1 was verified.
 
-This release remains unsigned; code signing and broader hardware/security review are pending. Automatic updates and live sales remain disabled. The three-file installer layout is unchanged.
+This release remains unsigned; code signing and broader hardware/security review are pending. Automatic updates and live sales remain disabled. October 31 packaging update: a single-download online setup now fetches and verifies installation data automatically. Internet is required during installation.
 
 ## 0.5.0 — 2026-10-30 · early-access prerelease
 

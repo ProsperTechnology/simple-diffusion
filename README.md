@@ -11,13 +11,11 @@ Simple Diffusion is a Windows desktop app for creating SDXL images on your own N
 
 ## Download and install
 
-Open the [official v0.5.1 release](https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.5.1) and download **all three files**:
+Download [Simple-Diffusion-Install-0.5.1.exe](https://github.com/ProsperTechnology/simple-diffusion/releases/download/v0.5.1/Simple-Diffusion-Install-0.5.1.exe) and open it. This is the only file you need to download manually.
 
-1. `Simple-Diffusion-Setup-0.5.1.exe`
-2. `Simple-Diffusion-Setup-0.5.1-1.bin`
-3. `Simple-Diffusion-Setup-0.5.1-2.bin`
+Internet is required during installation: setup automatically downloads and verifies about 2.66 GB of engine data from the official GitHub release. No companion files or separate Python/CUDA installation are required. The SDXL model (~6.9 GB) downloads separately inside the app. Allow at least 20 GB free, plus space for images.
 
-Keep them in the same folder, then open the setup executable. The installer includes its own Python/NVIDIA engine; separate developer tools or CUDA installation are not required. The model downloads separately during setup (~6.9 GB). The release includes `SHA256SUMS.txt` for integrity checks; a matching hash is not a publisher signature.
+`SHA256SUMS-online.txt` provides the setup file's integrity hash; it is not a publisher signature. The older split assets remain hosted as installation data for setup.
 
 The build is unsigned and Windows may show an unrecognized-publisher warning. If you prefer signed software, wait for a signed release. See the [complete installation guide](https://prospertechnology.github.io/simple-diffusion/guide.html).
 
