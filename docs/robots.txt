@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://prospertechnology.github.io/simple-diffusion/sitemap.xml

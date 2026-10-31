@@ -1,0 +1,17 @@
+{
+  "name": "Simple Diffusion",
+  "company": "Prosper Technologies",
+  "version": "0.5.0",
+  "channel": "prerelease",
+  "signed": false,
+  "automaticUpdatesEnabled": false,
+  "liveSalesEnabled": false,
+  "platform": "Windows x64",
+  "engine": "SDXL Base 1.0",
+  "includedStyles": 3,
+  "catalogStyles": 13,
+  "collections": 5,
+  "website": "https://prospertechnology.github.io/simple-diffusion/",
+  "releaseUrl": "https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.5.0",
+  "lastUpdated": "2026-10-30"
+}

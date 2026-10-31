@@ -1,0 +1,39 @@
+name: Report an app problem
+description: Report a reproducible Simple Diffusion bug.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for testing Simple Diffusion by Prosper Technologies. This is a public report: do not include private prompts, images, account information or personal folder paths."
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      placeholder: "0.5.0"
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Windows version, NVIDIA GPU, VRAM and driver
+      placeholder: "Windows 11, RTX 4080, 16 GB VRAM, driver 610.62"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Use a harmless example prompt if the issue needs one.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected behavior and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Optional sanitized diagnostics
+      description: Settings → Help & diagnostics → Copy diagnostics. Review before posting.
