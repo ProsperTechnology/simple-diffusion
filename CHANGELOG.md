@@ -1,5 +1,19 @@
 # Release history
 
+## 0.5.1 — 2026-10-30 · release hardening
+
+- Release builds now compact the first-party desktop JavaScript and omit source maps and development files.
+- The first-party Python worker ships as interpreter-matched bytecode, with a hash checked at application startup. Readable worker.py is absent from the release.
+- Enabled Electron archive integrity validation and ASAR-only loading; disabled Node-mode, Node options injection, Node inspector flags and packaged renderer developer tools.
+- Added a fail-closed packaging check for private source/build artifacts, worker integrity and required fuse settings. QA/debug launchers cannot enter the installer.
+- Added Prosper Technologies copyright notice while preserving third-party notices and licenses.
+
+Verification: 20 automated test groups pass; compacted app and bytecode worker passed actual GPU generation, JPEG export and cancellation; all five collections/13 styles passed import, previews and restart tests. A separate QA executable enabled only its inspector for automation and was removed before packaging. The sealed production executable launched normally, and a modified ASAR was rejected by its integrity check.
+
+These measures deter casual copying and tampering. JavaScript compaction and Python bytecode are not encryption; determined users can still inspect or reverse engineer software running on their PC. Locally installed recipe packs and public model weights remain accessible. No server secrets are bundled. Previously downloaded versions cannot be recalled.
+
+This release remains unsigned; code signing and broader hardware/security review are pending. Automatic updates and live sales remain disabled. The three-file installer layout is unchanged.
+
 ## 0.5.0 — 2026-10-30 · early-access prerelease
 
 - New Midnight appearance with a matching dark composer, library, store and dialogs; Paper appearance remains available. Appearance is remembered locally.

@@ -1,21 +1,21 @@
 <p align="center"><img src="docs/assets/mark.svg" width="56" alt="Simple Diffusion"></p>
 <h1 align="center">Simple Diffusion</h1>
 <p align="center"><b>Pick a style. Describe it. Create.</b><br>Free local AI image generation for Windows, by Prosper Technologies.</p>
-<p align="center"><a href="https://prospertechnology.github.io/simple-diffusion/">Product website</a> · <a href="https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.5.0">Download v0.5.0</a> · <a href="https://prospertechnology.github.io/simple-diffusion/guide.html">Installation guide</a> · <a href="CHANGELOG.md">Release history</a></p>
+<p align="center"><a href="https://prospertechnology.github.io/simple-diffusion/">Product website</a> · <a href="https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.5.1">Download v0.5.1</a> · <a href="https://prospertechnology.github.io/simple-diffusion/guide.html">Installation guide</a> · <a href="CHANGELOG.md">Release history</a></p>
 
 ![Simple Diffusion 0.5 Windows studio showing an image generated locally on an NVIDIA GPU](docs/assets/studio.jpg)
 
 Simple Diffusion is a Windows desktop app for creating SDXL images on your own NVIDIA graphics card. Basic local generation is free: no account, no image credits and no telemetry. Download the model once, then generate offline.
 
-**Current status:** v0.5.0 is an **unsigned early-access prerelease**. Verified on Windows 11 with RTX 4080 / 16 GB. Broader hardware testing remains pending. Automatic updates and live pack sales are disabled.
+**Current status:** v0.5.1 is an **unsigned early-access prerelease**. Verified on Windows 11 with RTX 4080 / 16 GB. Broader hardware testing remains pending. Automatic updates and live pack sales are disabled.
 
 ## Download and install
 
-Open the [official v0.5.0 release](https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.5.0) and download **all three files**:
+Open the [official v0.5.1 release](https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.5.1) and download **all three files**:
 
-1. `Simple-Diffusion-Setup-0.5.0.exe`
-2. `Simple-Diffusion-Setup-0.5.0-1.bin`
-3. `Simple-Diffusion-Setup-0.5.0-2.bin`
+1. `Simple-Diffusion-Setup-0.5.1.exe`
+2. `Simple-Diffusion-Setup-0.5.1-1.bin`
+3. `Simple-Diffusion-Setup-0.5.1-2.bin`
 
 Keep them in the same folder, then open the setup executable. The installer includes its own Python/NVIDIA engine; separate developer tools or CUDA installation are not required. The model downloads separately during setup (~6.9 GB). The release includes `SHA256SUMS.txt` for integrity checks; a matching hash is not a publisher signature.
 
@@ -34,7 +34,13 @@ The build is unsigned and Windows may show an unrecognized-publisher warning. If
 | Draft recovery | Recover the last prompt/name/settings locally; saved projects restore reference/edit context |
 | Recipe packs | Install validated data-only packs with real per-style previews |
 
-## New in 0.5.0
+## Release protection in 0.5.1
+
+The release omits readable first-party Python source, source maps and private development files. Desktop code is compacted; production debugging hooks are disabled. The app verifies its archive and worker integrity. Packaging checks enforce these settings and reject QA launchers.
+
+These measures deter casual copying and tampering. Offline desktop software can still be reverse engineered; this is not source encryption or an absolute protection guarantee. Third-party components retain their licenses. The older 0.5.0 installer is superseded.
+
+## Studio improvements
 
 - Midnight and Paper appearances, remembered locally.
 - Searchable Ctrl+K actions, arrow-key navigation, focus management and canvas focus mode.

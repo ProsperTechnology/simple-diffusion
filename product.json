@@ -1,7 +1,7 @@
 {
   "name": "Simple Diffusion",
   "company": "Prosper Technologies",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "channel": "prerelease",
   "signed": false,
   "automaticUpdatesEnabled": false,
@@ -12,6 +12,6 @@
   "catalogStyles": 13,
   "collections": 5,
   "website": "https://prospertechnology.github.io/simple-diffusion/",
-  "releaseUrl": "https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.5.0",
+  "releaseUrl": "https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.5.1",
   "lastUpdated": "2026-10-30"
 }
