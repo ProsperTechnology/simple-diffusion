@@ -1,21 +1,21 @@
 <p align="center"><img src="docs/assets/mark.svg" width="56" alt="Simple Diffusion"></p>
 <h1 align="center">Simple Diffusion</h1>
 <p align="center"><b>Pick a style. Describe it. Create.</b><br>Free local AI image generation for Windows, by Prosper Technologies.</p>
-<p align="center"><a href="https://prospertechnology.github.io/simple-diffusion/">Product website</a> · <a href="https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.5.1">Download v0.5.1</a> · <a href="https://prospertechnology.github.io/simple-diffusion/guide.html">Installation guide</a> · <a href="CHANGELOG.md">Release history</a></p>
+<p align="center"><a href="https://prospertechnology.github.io/simple-diffusion/">Product website</a> · <a href="https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.6.0">Download v0.6.0</a> · <a href="https://prospertechnology.github.io/simple-diffusion/guide.html">Installation guide</a> · <a href="CHANGELOG.md">Release history</a></p>
 
 ![Simple Diffusion 0.5 Windows studio showing an image generated locally on an NVIDIA GPU](docs/assets/studio.jpg)
 
 Simple Diffusion is a Windows desktop app for creating SDXL images on your own NVIDIA graphics card. Basic local generation is free: no account, no image credits and no telemetry. Download the model once, then generate offline.
 
-**Current status:** v0.5.1 is an **unsigned early-access prerelease**. Verified on Windows 11 with RTX 4080 / 16 GB. Broader hardware testing remains pending. Automatic updates and live pack sales are disabled.
+**Current status:** v0.6.0 is an **unsigned early-access prerelease**. Verified on Windows 11 with RTX 4080 / 16 GB. Broader hardware testing remains pending. Automatic updates and live pack sales are disabled.
 
 ## Download and install
 
-Download [Simple-Diffusion-Install-0.5.1.exe](https://github.com/ProsperTechnology/simple-diffusion/releases/download/v0.5.1/Simple-Diffusion-Install-0.5.1.exe) and open it. This is the only file you need to download manually.
+Download [Simple-Diffusion-Setup-0.6.0.exe](https://github.com/ProsperTechnology/simple-diffusion/releases/download/v0.6.0/Simple-Diffusion-Setup-0.6.0.exe) (**169 MB**) and open it. This installs the app without downloading the image engine.
 
-Internet is required during installation: setup automatically downloads and verifies about 2.66 GB of engine data from the official GitHub release. No companion files or separate Python/CUDA installation are required. The SDXL model (~6.9 GB) downloads separately inside the app. Allow at least 20 GB free, plus space for images.
+When you are ready to create, open setup inside the app. It shows the sizes and asks you to accept the model license before downloading the NVIDIA image engine (~2.75 GB) and SDXL model (~6.9 GB). Downloads are verified and can be paused and resumed. You can dismiss setup and return later. The engine is installed once in local app data and retained across ordinary app updates. Existing model files are checked and reused.
 
-`SHA256SUMS-online.txt` provides the setup file's integrity hash; it is not a publisher signature. The older split assets remain hosted as installation data for setup.
+No manual engine ZIP extraction, separate Python or CUDA installation is required. Allow at least 20 GB free plus space for images. SHA256SUMS.txt provides the app installer's integrity hash, not a publisher signature. Optional engine files have a separate release and are downloaded by the app automatically.
 
 The build is unsigned and Windows may show an unrecognized-publisher warning. If you prefer signed software, wait for a signed release. See the [complete installation guide](https://prospertechnology.github.io/simple-diffusion/guide.html).
 
@@ -32,7 +32,7 @@ The build is unsigned and Windows may show an unrecognized-publisher warning. If
 | Draft recovery | Recover the last prompt/name/settings locally; saved projects restore reference/edit context |
 | Recipe packs | Install validated data-only packs with real per-style previews |
 
-## Release protection in 0.5.1
+## Release protection
 
 The release omits readable first-party Python source, source maps and private development files. Desktop code is compacted; production debugging hooks are disabled. The app verifies its archive and worker integrity. Packaging checks enforce these settings and reject QA launchers.
 

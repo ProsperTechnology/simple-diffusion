@@ -1,5 +1,14 @@
 # Release history
 
+## 0.6.0 — 2026-10-31 · optional engine download
+
+- App-only Windows installer: 169 MB. The large NVIDIA engine is no longer bundled or fetched by Windows setup.
+- First-run setup shows engine/model download sizes and can be dismissed until the user is ready.
+- Explicit setup downloads the verified NVIDIA engine and SDXL model with pause/resume. Failed downloads or extraction cannot become a ready engine.
+- Versioned engines stay in local app data across normal app updates. Existing model files are verified and reused.
+- Verified: 27 automated tests, app-only installation, clean first run without an engine, separate engine extraction, and packaged real GPU generation, export and cancellation.
+- Still unsigned early access. Automatic updates and live sales remain disabled.
+
 ## 0.5.1 — 2026-10-30 · release hardening
 
 - Release builds now compact the first-party desktop JavaScript and omit source maps and development files.

@@ -1,7 +1,7 @@
 {
   "name": "Simple Diffusion",
   "company": "Prosper Technologies",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "channel": "prerelease",
   "signed": false,
   "automaticUpdatesEnabled": false,
@@ -12,9 +12,11 @@
   "catalogStyles": 13,
   "collections": 5,
   "website": "https://prospertechnology.github.io/simple-diffusion/",
-  "releaseUrl": "https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.5.1",
+  "releaseUrl": "https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.6.0",
   "lastUpdated": "2026-10-31",
-  "installerUrl": "https://github.com/ProsperTechnology/simple-diffusion/releases/download/v0.5.1/Simple-Diffusion-Install-0.5.1.exe",
-  "installerType": "online",
-  "installationRequiresInternet": true
+  "installerUrl": "https://github.com/ProsperTechnology/simple-diffusion/releases/download/v0.6.0/Simple-Diffusion-Setup-0.6.0.exe",
+  "installerType": "app-only",
+  "installationRequiresInternet": false,
+  "engineSetupRequiresInternet": true,
+  "installerBytes": 169229473
 }
