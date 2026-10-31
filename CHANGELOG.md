@@ -10,7 +10,7 @@
 
 Verification: 22 automated test groups pass; compacted app and bytecode worker passed actual GPU generation, JPEG export and cancellation; all five collections/13 styles passed import, previews and restart tests. A separate QA executable enabled only its inspector for automation and was removed before packaging. The sealed production executable launched normally, and a modified ASAR was rejected by its integrity check.
 
-These measures deter casual copying and tampering. JavaScript compaction and Python bytecode are not encryption; determined users can still inspect or reverse engineer software running on their PC. Locally installed recipe packs and public model weights remain accessible. No server secrets are bundled. Previously downloaded versions cannot be recalled.
+These measures deter casual copying and tampering. JavaScript compaction and Python bytecode are not encryption; determined users can still inspect or reverse engineer software running on their PC. Locally installed recipe packs and public model weights remain accessible. No server secrets are bundled. Previously downloaded versions cannot be recalled. The older 0.5.0 installer was withdrawn from public downloads after 0.5.1 was verified.
 
 This release remains unsigned; code signing and broader hardware/security review are pending. Automatic updates and live sales remain disabled. The three-file installer layout is unchanged.
 
