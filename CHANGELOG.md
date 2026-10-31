@@ -8,7 +8,7 @@
 - Added a fail-closed packaging check for private source/build artifacts, worker integrity and required fuse settings. QA/debug launchers cannot enter the installer.
 - Added Prosper Technologies copyright notice while preserving third-party notices and licenses.
 
-Verification: 20 automated test groups pass; compacted app and bytecode worker passed actual GPU generation, JPEG export and cancellation; all five collections/13 styles passed import, previews and restart tests. A separate QA executable enabled only its inspector for automation and was removed before packaging. The sealed production executable launched normally, and a modified ASAR was rejected by its integrity check.
+Verification: 22 automated test groups pass; compacted app and bytecode worker passed actual GPU generation, JPEG export and cancellation; all five collections/13 styles passed import, previews and restart tests. A separate QA executable enabled only its inspector for automation and was removed before packaging. The sealed production executable launched normally, and a modified ASAR was rejected by its integrity check.
 
 These measures deter casual copying and tampering. JavaScript compaction and Python bytecode are not encryption; determined users can still inspect or reverse engineer software running on their PC. Locally installed recipe packs and public model weights remain accessible. No server secrets are bundled. Previously downloaded versions cannot be recalled.
 
