@@ -19,5 +19,10 @@
   "installationRequiresInternet": false,
   "engineSetupRequiresInternet": true,
   "installerBytes": 169229554,
-  "privacyPolicyUrl": "https://prospertechnology.github.io/simple-diffusion/privacy.html"
+  "privacyPolicyUrl": "https://prospertechnology.github.io/simple-diffusion/privacy.html",
+  "engineDownloadBytes": 2753110875,
+  "modelDownloadBytes": 6941201645,
+  "engineAndModelDownloadBytes": 9694312520,
+  "firstTimeTransferBytes": 9863542074,
+  "networkVerificationUrl": "https://prospertechnology.github.io/simple-diffusion/network-verification.html"
 }

@@ -4,36 +4,27 @@ title: "[Bug]: "
 body:
   - type: markdown
     attributes:
-      value: "Thank you for testing Simple Diffusion by Prosper Technologies. This is a public report: do not include private prompts, images, account information or personal folder paths."
-  - type: input
-    id: version
-    attributes:
-      label: App version
-      placeholder: "0.5.0"
-    validations:
-      required: true
-  - type: input
+      value: "Thank you for testing Simple Diffusion by Prosper Technologies. This issue is public. Never include private prompts, images, account information, GPU identifiers or personal folder paths."
+  - type: textarea
     id: system
     attributes:
-      label: Windows version, NVIDIA GPU, VRAM and driver
-      placeholder: "Windows 11, RTX 4080, 16 GB VRAM, driver 610.62"
+      label: App and hardware details
+      description: "Paste Settings → Help & diagnostics → Copy diagnostics here, or manually enter app version, Windows version/build, GPU, VRAM, NVIDIA driver and system RAM. Review the report before posting."
+      placeholder: "Paste the copied diagnostics, or enter: 0.6.0; Windows 11; RTX 3060; 12 GB VRAM; driver version; 16 GB RAM."
+      render: text
     validations:
       required: true
   - type: textarea
     id: reproduce
     attributes:
       label: Steps to reproduce
-      description: Use a harmless example prompt if the issue needs one.
+      description: "Include quality, image size and whether Use less graphics memory was enabled. Use a harmless example prompt if needed."
     validations:
       required: true
   - type: textarea
     id: result
     attributes:
       label: Expected behavior and actual behavior
+      description: "For hardware tests, include the time to the first image, later images, and any error message. Avoid personal paths."
     validations:
       required: true
-  - type: textarea
-    id: diagnostics
-    attributes:
-      label: Optional sanitized diagnostics
-      description: Settings → Help & diagnostics → Copy diagnostics. Review before posting.

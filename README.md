@@ -13,7 +13,7 @@ Simple Diffusion is a Windows desktop app for creating SDXL images on your own N
 
 Download [Simple-Diffusion-Setup-0.6.0.exe](https://github.com/ProsperTechnology/simple-diffusion/releases/download/v0.6.0/Simple-Diffusion-Setup-0.6.0.exe) (**169 MB**) and open it. This installs the app without downloading the image engine.
 
-When you are ready to create, open setup inside the app. It shows the sizes and asks you to accept the model license before downloading the NVIDIA image engine (~2.75 GB) and SDXL model (~6.9 GB). Downloads are verified and can be paused and resumed. You can dismiss setup and return later. The engine is installed once in local app data and retained across ordinary app updates. Existing model files are checked and reused.
+When you are ready to create, open setup inside the app. It shows the sizes and asks you to accept the model license before downloading the NVIDIA image engine (~2.75 GB) and SDXL model (~6.94 GB), **9.69 GB combined in addition to the 169 MB installer**. Downloads are verified and can be paused and resumed. You can dismiss setup and return later. The engine is installed once in local app data and retained across ordinary app updates. Existing model files are checked and reused.
 
 No manual engine ZIP extraction, separate Python or CUDA installation is required. Allow at least 20 GB free plus space for images. SHA256SUMS.txt provides the app installer's integrity hash, not a publisher signature. Optional engine files have a separate release and are downloaded by the app automatically.
 
@@ -77,6 +77,8 @@ Packs are style recipes, not additional models. Examples are generated locally; 
 Images, prompts, projects, references and draft recovery stay in the local Windows profile. No inference API or telemetry is used. Setup downloads the pinned model files. Opening GitHub or an optional test checkout opens an external service with its own privacy policy. [Privacy policy](https://prospertechnology.github.io/simple-diffusion/privacy.html).
 
 The updater foundation verifies signed manifests and Windows-signed installers. **Live automatic updates are disabled** until release signing is configured. Manual prerelease downloads are available above.
+
+See [how to inspect network activity](https://prospertechnology.github.io/simple-diffusion/network-verification.html) for expected connections, offline checks and the limits of verification with private source. No independent privacy audit is claimed.
 
 ## Help and bug reports
 
