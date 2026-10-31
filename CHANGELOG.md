@@ -2,6 +2,7 @@
 
 ## 0.6.0 — 2026-10-31 · optional engine download
 
+- Installer registration update: explicitly creates the Windows Installed apps entry as Simple Diffusion, published by Prosper Technologies, and adds a Start menu Uninstall shortcut. Verified after normal per-user installation.
 - App-only Windows installer: 169 MB. The large NVIDIA engine is no longer bundled or fetched by Windows setup.
 - First-run setup shows engine/model download sizes and can be dismissed until the user is ready.
 - Explicit setup downloads the verified NVIDIA engine and SDXL model with pause/resume. Failed downloads or extraction cannot become a ready engine.
