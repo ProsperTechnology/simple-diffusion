@@ -5,7 +5,7 @@
 
 ![Simple Diffusion 0.5 Windows studio showing an image generated locally on an NVIDIA GPU](docs/assets/studio.jpg)
 
-Simple Diffusion is a Windows desktop app for creating SDXL images on your own NVIDIA graphics card. Basic local generation is free: no account, no image credits and no telemetry. Download the model once, then generate offline.
+Simple Diffusion is a Windows desktop app for creating SDXL images on your own NVIDIA graphics card. Basic local generation is free: no account, no image credits and no telemetry. Install the 169 MB app, download the engine and model when ready, then generate offline.
 
 **Current status:** v0.6.0 is an **unsigned early-access prerelease**. Verified on Windows 11 with RTX 4080 / 16 GB. Broader hardware testing remains pending. Automatic updates and live pack sales are disabled.
 
