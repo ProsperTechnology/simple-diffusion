@@ -18,5 +18,6 @@
   "installerType": "app-only",
   "installationRequiresInternet": false,
   "engineSetupRequiresInternet": true,
-  "installerBytes": 169229554
+  "installerBytes": 169229554,
+  "privacyPolicyUrl": "https://prospertechnology.github.io/simple-diffusion/privacy.html"
 }

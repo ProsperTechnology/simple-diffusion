@@ -1,7 +1,7 @@
 <p align="center"><img src="docs/assets/mark.svg" width="56" alt="Simple Diffusion"></p>
 <h1 align="center">Simple Diffusion</h1>
 <p align="center"><b>Pick a style. Describe it. Create.</b><br>Free local AI image generation for Windows, by Prosper Technologies.</p>
-<p align="center"><a href="https://prospertechnology.github.io/simple-diffusion/">Product website</a> · <a href="https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.6.0">Download v0.6.0</a> · <a href="https://prospertechnology.github.io/simple-diffusion/guide.html">Installation guide</a> · <a href="CHANGELOG.md">Release history</a></p>
+<p align="center"><a href="https://prospertechnology.github.io/simple-diffusion/">Product website</a> · <a href="https://github.com/ProsperTechnology/simple-diffusion/releases/tag/v0.6.0">Download v0.6.0</a> · <a href="https://prospertechnology.github.io/simple-diffusion/guide.html">Installation guide</a> · <a href="CHANGELOG.md">Release history</a> · <a href="https://prospertechnology.github.io/simple-diffusion/privacy.html">Privacy policy</a></p>
 
 ![Simple Diffusion 0.5 Windows studio showing an image generated locally on an NVIDIA GPU](docs/assets/studio.jpg)
 
@@ -74,7 +74,7 @@ Packs are style recipes, not additional models. Examples are generated locally; 
 
 ## Privacy and updates
 
-Images, prompts, projects, references and draft recovery stay in the local Windows profile. No inference API or telemetry is used. Setup downloads the pinned model files. Opening GitHub or an optional test checkout opens an external service with its own privacy policy. [Privacy and licenses](https://prospertechnology.github.io/simple-diffusion/privacy.html).
+Images, prompts, projects, references and draft recovery stay in the local Windows profile. No inference API or telemetry is used. Setup downloads the pinned model files. Opening GitHub or an optional test checkout opens an external service with its own privacy policy. [Privacy policy](https://prospertechnology.github.io/simple-diffusion/privacy.html).
 
 The updater foundation verifies signed manifests and Windows-signed installers. **Live automatic updates are disabled** until release signing is configured. Manual prerelease downloads are available above.
 
